@@ -1,0 +1,22 @@
+{
+  "name": "check-city-weather",
+  "version": "1.0.0",
+  "description": "An awesome Package to check city weather.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codechaseers/check-city-weather.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "sudhanshu shekhar ojha",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/codechaseers/check-city-weather/issues"
+  },
+  "homepage": "https://github.com/codechaseers/check-city-weather#readme"
+}
