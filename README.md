@@ -33,13 +33,11 @@ const Checkweather = () => {
 
     }
     return (
-        <>
-            <h1>Hand detact Using Tensaflow AI</h1>
+        <>          
             <input type="text" placeholder="Enter city name " onChange={(e) => { setCity(e.target.value) }} />
             <button onClick={() => Check(city)} className="btn  btn-primary mx-2">Check Weather</button>
             <h2>{weather.name && weather.name}</h2>
-            <h2>{weather.main && weather.main.temp}</h2>
-            
+            <h2>{weather.main && weather.main.temp}</h2>            
         </>
     )
 }
