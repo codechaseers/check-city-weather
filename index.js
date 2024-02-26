@@ -5,18 +5,19 @@ export async function getWeather(cityName) {
 
     let data = await fetch(url);
     let finaldata = await data.json();
-    // console.log(data);
-    if (data.cod == 200) {
+    // console.log(finaldata);
+    if (finaldata.cod == 200) {
         return finaldata
-    }else{
-        return "! City not found... "
-    }
+    } 
     
+    else {
+      return "! City Not Found..."
+    }
       
   }
 //  
   (async () => {
-    const weatherData = await getWeather("baripasssda");
+    const weatherData = await getWeather("goa");
     console.log(weatherData);
   })();
 

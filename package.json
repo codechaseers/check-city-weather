@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An awesome Package to check city weather.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "npm run test"
   },
